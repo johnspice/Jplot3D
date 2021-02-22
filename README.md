@@ -2,7 +2,7 @@
 ## Pequeño Motor De Renderizado 3D para Android
 
 ![GitHub Logo](/image/monogif.gif)![GitHub Logo](/image/cubogif.gif)
-![GitHub Logo](/image/figuras.png)
+![GitHub Logo](/image/curvas.png)
 
 
 El motor usa la clase View que permite dibujar puntos, lineas, texto etc. usando un canvas en 2D,
@@ -21,7 +21,22 @@ Pudes usarla para:
 - curvas
 
 ## Agregar a Android studio usando Gradle
---- En Construccion
-## Como usar
+en el archivo build.gradle(:app) agrega lo siguiente;
 
+    repositories {
+      maven {
+        url 'https://dl.bintray.com/juangabriel/jplot'
+      }
+    }
+
+
+    dependencies {
+      implementation 'com.gabrielopez.plot:jplot3D:1.0.1'
+    }
+    
+## Como usar
+Revisar Codigo ejemplo en este repo.
+
+## Exportar objeto .ply de Blender
+![GitHub Logo](/image/export.png)
  

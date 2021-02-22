@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <Button
+            android:layout_marginStart="15dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Draw monkey.ply"
+            android:onClick="drawMonkey"
+            >
+        </Button>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:text="Draw Curve"
+            android:layout_marginStart="5dp"
+            android:onClick="paintCurve"
+            >
+        </Button>
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:text="draw multiple curve"
+            android:layout_marginStart="5dp"
+            android:onClick="paintMultipleCurve"
+            >
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ly_draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+</LinearLayout>

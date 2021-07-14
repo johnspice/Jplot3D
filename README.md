@@ -25,7 +25,7 @@ en el archivo build.gradle(:app) agrega lo siguiente;
 
     repositories {
       maven {
-        url 'https://dl.bintray.com/juangabriel/jplot'
+        url "https://dl.cloudsmith.io/public/troysoft/jplot3d/maven/"
       }
     }
 

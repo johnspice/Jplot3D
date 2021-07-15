@@ -31,7 +31,7 @@ android {
 repositories {
     //add maven for jplot
     maven {
-        url 'https://dl.bintray.com/juangabriel/jplot'
+        url "https://dl.cloudsmith.io/public/troysoft/jplot3d/maven/"
     }
 }
 
@@ -46,5 +46,4 @@ dependencies {
 
     //add implementation for jplot
     implementation 'com.gabrielopez.plot:jplot3D:1.0.1'
-
 }
